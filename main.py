@@ -49,7 +49,7 @@ if __name__=="__main__":
     #for testing only
     #sendEmail(Gmail_ID,"subject","test message")
     #exit()
-    resp=sendSMS('NqI6lJ+F9Do-GVeyg2m3lHLDxwxRg0diXmz2BCWqK5','919019533470,919545683807','TXTLCL','Hi Guruji,This is SMS API integration and send a auto sms')
+    resp=sendSMS('API','sender mobile number','TXTLCL','Hi Guruji,This is SMS API integration and send a auto sms')
     print(resp)
     exit()
     df=pd.read_excel("data.xlsx")
